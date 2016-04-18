@@ -181,7 +181,10 @@
     </build>
 
     <modules>
+        <module>exception</module>
+
         <module>ex03_1</module>
         <module>ex04_1</module>
+        <module>ex12_1</module>
     </modules>
 </project>
