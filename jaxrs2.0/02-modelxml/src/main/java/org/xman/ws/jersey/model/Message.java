@@ -5,13 +5,12 @@ import java.util.Date;
 
 @XmlRootElement
 public class Message {
-
     private long id;
     private String author;
     private String message;
     private Date created;
 
-    // 列表序列化时需要无参构造函数
+    // 列表序列化为XML时需要无参构造函数,如果只是单个对象,则不需要.
     public Message() {
     }
 
